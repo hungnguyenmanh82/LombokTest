@@ -13,7 +13,7 @@
 
 	<dependencies>
 		<!-- Setter, Getter, Constructor, @toString, @log4j -->
- 		<dependency>
+		<dependency>
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>
 			<version>${lombok.version}</version>
@@ -51,6 +51,8 @@
 				<configuration>
 					<source>1.8</source>
 					<target>1.8</target>
+					<!-- Eclipse use it -->
+					<encoding>${project.build.sourceEncoding}</encoding>
 				</configuration>
 			</plugin>
 
