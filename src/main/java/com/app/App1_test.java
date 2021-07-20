@@ -19,6 +19,11 @@ import lombok.extern.log4j.Log4j2;
  * dùng Lombok có nhược điểm là khi debug, hoặc muốn add thêm log vào getter/setter/constructor để debug sẽ ko làm đc
  * Giải pháp thay đế: là dùng Eclipse gencode, Eclipse Template (snippet) để sinh code tự động cho log4j2
  */
+/**
+ * Cơ chế gen code của Lombok cũng giống với Springboot, log4j2 plugin => để tránh phải code nhiều
+ * Chỉ dành cho những người code nhiều và hiểu bản chất của nó
+ *	
+ */
 @Log4j2
 public class App1_test {
 	
