@@ -3,7 +3,13 @@ import com.model.Student;
 import com.model.User;
 
 import lombok.extern.log4j.Log4j2;
+import lombok.extern.slf4j.Slf4j;
 
+/**
+ * dùng Lombok với Intellij IDEA bản Community Edition
+ * step 1: Enable tính năng ở setting => annotation Process
+ * step 2: add lombok vào pom.xml  ( Nếu project có nhiều module thì phải add vào pom.xml của Project mới đc)
+ */
 /**
  * Step1: add lombok pom.xml
  * Step2: click maven lib => lombok.jar => run Java App 
@@ -26,6 +32,7 @@ import lombok.extern.log4j.Log4j2;
  * 	
  */
 @Log4j2
+//@Slf4j
 public class App1_test {
 	
 	public static void main(String[] args) {
